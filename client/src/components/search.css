@@ -1,0 +1,17 @@
+#search {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#search input {
+  padding: 0 6px;
+  height: 24px;
+}
+
+#search button {
+  width: 60px;
+  background-color: darkseagreen;
+  /* color: white; */
+  cursor: pointer;
+}
