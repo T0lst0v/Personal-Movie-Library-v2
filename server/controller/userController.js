@@ -72,7 +72,7 @@ const userLogin = async (req, res) => {
 
     //checking if  entered email matched with existing in db
     if (userInDB.email === userEmail) {
-      //compering entered password with existing in DB
+      //comparing entered password with existing in DB
       bcrypt.compare(userPass, userInDB.password, (err, result) => {
         if (result) {
           //creating JWT based on Id of the user

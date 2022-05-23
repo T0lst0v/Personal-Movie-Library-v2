@@ -31,6 +31,8 @@ async function authenticate(req, res, next) {
     }
   } catch (error) {
     res.status(401).json({ error });
+
+
   }
 }
 

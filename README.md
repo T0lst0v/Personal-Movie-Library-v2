@@ -8,6 +8,7 @@ Refactoring :
 - moving to MongoDB instead of PostgreSQL, as it looks like SQL is not a best option for this project.
 - use CSS in JS
 
-<!--TODO: (need better naming) -->
+
+<!-- TODO: (need better naming) --> 
 
 <!-- TODO: project description  -->
